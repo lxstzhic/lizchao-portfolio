@@ -1,7 +1,7 @@
 export const links = {
   VIDEO_DREAM73_URL: 'https://www.bilibili.com/video/BV1e5Ys61Ess/', DEMO_DREAM73_URL: './downloads/Dream73_Demo_Windows.zip', DOC_DREAM73_URL: './downloads/第七十三夜策划展示.pptx',
   VIDEO_AFTERLIFE_URL: 'https://www.bilibili.com/video/BV1oM4y1e7My/', DEMO_AFTERLIFE_URL: './downloads/Afterlife_Demo_Android.zip', DOC_AFTERLIFE_URL: './downloads/来世今生策划案.xlsx',
-  DOC_OUTER_WILDS_URL: './downloads/《星际拓荒》探索与知识进程系统拆解.docx', RESUME_URL: 'https://book.yunzhan365.com/okctb/xtwy/mobile/index.html'
+  DOC_OUTER_WILDS_URL: './downloads/《星际拓荒》探索与知识进程系统拆解.docx', RESUME_URL: './downloads/李智超 江南大学27届硕士 18367103575.pdf'
 };
 export const projects = [
   { id:'dream73', title:'《第七十三夜》', type:'像素解谜探索游戏', date:'2026.07 — 2026.08', image:'./assets/dream73-cover.png', featured:true, summary:'以知识锁与轻度 Meta 要素为核心，围绕规则学习、线索记录和谜题解锁组织探索流程。', role:'独立设计核心循环与系统框架，完成规则、交互、日志及 6 个关卡场景的 Unity 落地。', tags:['Unity 独立开发','知识锁','MVC','6 个关卡','7 次迭代'], video:links.VIDEO_DREAM73_URL, demo:links.DEMO_DREAM73_URL, doc:links.DOC_DREAM73_URL, extra:'查看迭代记录', metrics:['3 种梦境规则','18 项问题修复','7 个版本迭代'] },
