@@ -19,3 +19,4 @@ public/downloads/*
 /output/
 /.playwright-cli/
 /.playwright/
+!public/downloads/resume_lizchao_20261005.pdf

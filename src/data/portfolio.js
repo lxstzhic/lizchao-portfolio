@@ -1,23 +1,26 @@
 export const links = {
   VIDEO_DREAM73_URL: 'https://www.bilibili.com/video/BV1e5Ys61Ess/', DEMO_DREAM73_URL: './downloads/Dream73_Demo_Windows.zip', DOC_DREAM73_URL: './downloads/第七十三夜策划展示.pptx',
   VIDEO_AFTERLIFE_URL: 'https://www.bilibili.com/video/BV1oM4y1e7My/', DEMO_AFTERLIFE_URL: './downloads/Afterlife_Demo_Android.zip', DOC_AFTERLIFE_URL: './downloads/来世今生策划案.xlsx',
-  DOC_OUTER_WILDS_URL: './downloads/《星际拓荒》探索与知识进程系统拆解.docx', RESUME_URL: './downloads/resume_lizchao.pdf'
+  DOC_OUTER_WILDS_URL: './downloads/《星际拓荒》探索与知识进程系统拆解.docx', RESUME_URL: './downloads/resume_lizchao_20261005.pdf'
 };
 export const projects = [
-  { id:'dream73', title:'《第七十三夜》', type:'像素解谜探索游戏', date:'2026.07 — 2026.08', image:'./assets/dream73-cover.png', featured:true, summary:'以知识锁与轻度 Meta 要素为核心，围绕规则学习、线索记录和谜题解锁组织探索流程。', role:'独立设计核心循环与系统框架，完成规则、交互、日志及 6 个关卡场景的 Unity 落地。', tags:['Unity 独立开发','知识锁','MVC','6 个关卡','7 次迭代'], video:links.VIDEO_DREAM73_URL, demo:links.DEMO_DREAM73_URL, doc:links.DOC_DREAM73_URL, extra:'查看迭代记录', metrics:['3 种梦境规则','18 项问题修复','7 个版本迭代'] },
-  { id:'afterlife', title:'《来世今生》', type:'探索类科普游戏', date:'2023.05 — 2023.06', image:'./assets/afterlife-cover.png', summary:'以小麦为主角，将食品添加剂知识融入工厂探索、战斗行动、道具收集和分支结局。', role:'设计核心玩法、流程与道具—结局关联规则，协作完成资源整合并推进 3 个版本。', tags:['Unity 协作','科普叙事','14 种结局','流程设计'], video:links.VIDEO_AFTERLIFE_URL, demo:links.DEMO_AFTERLIFE_URL, doc:links.DOC_AFTERLIFE_URL, metrics:['14 种结局分支','3 个版本迭代','跨职能协作'] },
-  { id:'outer-wilds', title:'《星际拓荒》探索与知识进程系统拆解案', type:'游戏系统分析作品', date:'2026.07 — 2026.08', image:'./assets/outer-wilds-analysis.png', summary:'围绕探索、知识获取和信息门控，分析核心循环、系统联系、玩家认知变化与反馈机制。', role:'从系统目标、知识进程、信息门控和反馈机制四个层面完成结构化拆解。', tags:['系统分析','信息门控','知识进程','迁移方法'], doc:links.DOC_OUTER_WILDS_URL, metrics:['核心循环图','知识进程图','系统关系图'] }
+  { id:'dream73', title:'《第七十三夜》2D 原型', type:'像素解谜探索游戏', date:'2026.07 — 2026.08', image:'./assets/dream73-cover.png', featured:true, summary:'《第七十三夜》的早期 2D 原型，以知识锁与轻度 Meta 要素组织规则学习、线索记录和谜题解锁，保留最初的设计与迭代过程。', role:'独立设计核心循环与系统框架，完成规则、交互、日志及 6 个关卡场景的 Unity 落地。', tags:['Unity 独立开发','知识锁','MVC','6 个关卡','7 次迭代'], video:links.VIDEO_DREAM73_URL, demo:links.DEMO_DREAM73_URL, doc:links.DOC_DREAM73_URL, extra:'查看迭代记录', metrics:['3 种梦境规则','18 项问题修复','7 个版本迭代'] },
+  { id:'afterlife', title:'《来世今生》', type:'探索类科普游戏', date:'2023.05 — 2023.06', image:'./assets/afterlife-cover.png', summary:'以小麦为主角，把食品生产过程转化为探索、战斗与材料选择；将战斗推进、材料组合和离开方式关联为多周目分支体验。', role:'承担核心策划、程序实现、UI 与测试。在两周制作窗口内舍弃经营模块，与 1 名美术、2 名参与文案的成员协作，交付游戏、视频与策划案。', tags:['核心策划与开发','战斗配置','分支判定','范围取舍'], video:links.VIDEO_AFTERLIFE_URL, demo:links.DEMO_AFTERLIFE_URL, doc:links.DOC_AFTERLIFE_URL, metrics:['12 个可收集结局 + 2 种终局选择','3 个版本迭代','两周制作窗口'] },
+  { id:'outer-wilds', title:'《星际拓荒》探索与知识进程系统拆解案', type:'游戏系统分析作品', date:'2026.07 — 2026.08', image:'./assets/outer-wilds-analysis.png', summary:'围绕“知识如何改变下一次行动”，结合碎空星、沙漏双星分析时间变化与区域可达性，梳理线索获取、规则理解和后续探索的关系。', role:'整理知识来源、时间窗口、关联地点等 10 项线索信息，归纳可观察、可推导、可验证等 5 项原则，解释信息门控如何影响探索路径。', tags:['系统分析','信息门控','知识进程','迁移方法'], doc:links.DOC_OUTER_WILDS_URL, metrics:['核心循环图','知识进程图','系统关系图'] }
 ];
 
 
 export const profile = {
   name: '李智超', englishName: 'LI ZHICHAO', email: 'lxst_zhi@163.com', phone: '18367103575',
   github: 'https://github.com/lxstzhic/lizchao-portfolio',
-  intro: '我喜欢把想法拆成清晰的规则，再把规则做成可以体验的作品。从玩法构思、空间组织到交互实现，我关注每一个决定如何影响最终体验。',
+  education: '江南大学 · 2027 届硕士',
+  intro: '我关注玩家如何理解规则、选择路径，并从行动中获得反馈。在 Unity 项目中，我把这些问题落实为关卡白盒、主支动线、交互条件和界面，再通过本人试玩提出修改并复测。',
+  background: '江南大学 2027 届硕士在读。从 2D 规则原型到 3D 探索解谜，我持续推进设计、实现与交付；也在科普游戏中承担核心策划与开发，与美术、文案成员协作完成作品。',
   skills: [
-    { title: '设计与逻辑', text: '梳理核心循环、状态变化、条件解锁与多分支关联，将想法细化为可执行、可测试的方案。', tags: ['规则设计', 'UI 交互', '信息反馈'] },
-    { title: '开发与实现', text: '使用 Unity 构建可玩原型，具备 C# 编程基础与 MVC 架构实践；使用 Python、MATLAB 辅助数据整理与逻辑验证。', tags: ['Unity / C#', 'MVC', 'Python / MATLAB'] },
-    { title: '表达与协作', text: '用策划案、规则表和测试记录明确目标与交付，有与美术、文案协作推进项目的经验。大学英语六级，可查阅英文资料。', tags: ['文档表达', '测试迭代', '项目协作'] },
+    { title: '空间与玩法设计', text: '从空场景搭建关卡白盒与机关原型，组织主支路线、高差、回访和捷径；结合角色移动与镜头视野调整尺度，安排规则教学与组合挑战。', tags: ['白盒原型', '主支动线', '规则教学'] },
+    { title: '引擎与程序基础', text: '配置 Unity 的 Prefab、碰撞体、Trigger 和场景引用；具备 C# 基础，能编写或修改交互触发、条件判定、事件调用与 UI 响应逻辑。使用 Python 辅助数据整理与逻辑验证。', tags: ['Unity / C#', '交互与状态', 'Python / SVN'] },
+    { title: '视觉与交互体验', text: '使用 Blender、Krita 制作模型与平面视觉，设计界面布局、信息层级和操作流程；结合地标、路线配色、提示位置与触发时机，组织空间引导和操作反馈。', tags: ['Blender / Krita', 'UI 与信息层级', '视觉引导'] },
+    { title: '评估与协作交付', text: '根据本人试玩定位问题、调整方案并复测；以 Office、Visio 编写规则表、流程图与测试记录，使用 SVN 管理版本。根据制作窗口取舍功能，与美术、文案协作交付。', tags: ['问题定位与复测', '制作范围控制', '英语六级'] },
   ],
 };
 // 视频平台页面填 HTTPS 链接；没有链接时保持空字符串，不生成无效按钮。
@@ -25,15 +28,21 @@ export const profile = {
 export const dream3d = {
   id: 'dream73-3d', title: '第七十三夜', subtitle: '3D 探索解谜 · 0.4',
   date: '2026.09 — 2026.10', role: '个人独立制作',
-  summary: '从二维规则实验走向可探索的三维空间。以倒影、回声与对齐为线索，让玩家在观察、验证和回访中逐步理解这个世界。',
-  description: '水务、回声设施、天文台与终章房间串联为一段探索旅程。规则学习、跨区回访、捷径、日志与双结局共同构成作品体验。',
+  summary: '针对解谜后反复原路返回的问题，将探索流程重构为连续主路、跨层支路与返程捷径。通过高处回望、检修后启用滑索及跨区交通，让学到的规则参与下一段探索。',
+  description: '涵盖水务、回声、天文台与终章 4 个区域，围绕倒影、回声、对齐 3 种规则安排单规则教学、双规则主路与三规则支线，接入 2 种结局。当前为 0.4 发布版；首通 10–20 分钟是设计目标，非玩家实测统计。',
   designVideoUrl: '', demoUrl: 'https://github.com/lxstzhic/lizchao-portfolio/releases/download/night73-v0.4/Night73_0.4_Windows.zip', docUrl: './downloads/dream73_3d_design.xlsx',
   evolutionVideoUrl: './media/dream73_3d_evolution.mp4',
   cover: './assets/dream73_3d/cover.png',
+  metrics: ['4 个区域 / 3 种规则', '2 种结局', '0.4 发布版'],
   highlights: [
-    { title: '规则成为探索的线索', text: '倒影、回声、对齐三种规则贯穿观察与解谜；知识可以提前使用，阅读日志不是解锁能力的条件。' },
-    { title: '空间连接承担玩法', text: '以地标、跨区交通、回访支路和捷径组织路线，让空间关系参与问题的发现与解决。' },
-    { title: '从原型推进到完整体验', text: '将区域建模、交互提示、双页日志、存档、界面与声音整合到 0.4 可玩版本。' },
+    { title: '以动线重构回应重复折返', text: '保留有新信息的回访，用跨层支路、高处回望和返程捷径重新组织路径。支路承担观察与探索价值，而不只是延长路程。' },
+    { title: '让知识通过行动被验证', text: '从单规则教学推进到组合运用；玩家可提前尝试有效操作，不以读取日志作为能力解锁前提。按楼层与教学时机限制提示，避免提前揭示答案。' },
+    { title: '把试玩问题落到可复测修改', text: '针对提示提前泄露、车内失去乘车交互资格、重开后角色失控，分别调整提示范围、交互判定和状态恢复。功能复测与玩家理解度评估分开记录。' },
+  ],
+  iterationCases: [
+    {title:'乘车交互：覆盖真实操作位置', text:'原判定只覆盖站台中心附近，进入车厢后会失去交互资格。修订后覆盖站台及停靠车厢，并增加呼叫柱与乘车说明；检查重点从站台发车扩展到车内操作。'},
+    {title:'重开状态：恢复可玩的初始状态', text:'重开时残留的暂停状态曾导致角色无法移动或转动视角。修订状态恢复逻辑，并将移动、视角与重开流程纳入复测。'},
+    {title:'验证范围', text:'本人试玩用于发现问题、提出改动及复核。0.4 已完成构建与基础原生输入检查；陌生玩家理解度、完整连续首通和低配长时性能仍需单独验证，不据此宣称体验提升比例。'},
   ],
   gallery: [
     {src:'./assets/dream73_3d/1.png', label:'01 / 水务街区', type:'实机画面'},
