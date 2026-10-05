@@ -2,7 +2,7 @@
 
 **设计思考 · Unity 开发 · 交互实现 · 项目迭代**
 
-[浏览作品集](https://lxstzhic.github.io/lizchao-portfolio/) · [简历](public/downloads/resume_lizchao_20261005.pdf) · [邮件联系](mailto:lxst_zhi@163.com)
+[浏览作品集](https://lxstzhic.github.io/lizchao-portfolio/) · [简历](public/downloads/resume_lizchao_20261005_v2.pdf) · [邮件联系](mailto:lxst_zhi@163.com)
 
 我目前为江南大学 2027 届硕士在读，持续进行 Unity 项目实践。我关注如何把想法整理成清晰的规则，再通过空间、交互和反馈把它变成可以体验的作品。这个网站集中展示我的设计思考、实现过程与项目成果，方便从不同岗位视角了解我的能力。
 
@@ -29,6 +29,12 @@
 | 配置 | 用途 |
 | --- | --- |
 | `profile` | 姓名、邮箱、电话、GitHub、个人介绍和能力 |
+| `profile.intro` / `profile.background` | 个人简介正文 / 教育与项目背景 |
+| `profile.skills` | 能力卡片的标题、正文和标签 |
+| `links.RESUME_URL` | 下载简历的文件地址 |
+| `dream3d.summary` / `dream3d.description` | 3D 项目简介 / 我的工作 |
+| `dream3d.highlights` | 3D 项目设计要点 |
+| `dream3d.iterationCases` | 可展开的迭代与交付说明 |
 | `links` | 原有视频、Demo、文档和简历链接，已保留原值 |
 | `projects` | 原有三个项目的简介、标签、封面和入口 |
 | `dream3d` | 3D 项目内容、图库、视频和资源入口 |
