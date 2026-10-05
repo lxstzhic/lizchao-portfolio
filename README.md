@@ -1,117 +1,93 @@
-# 李智超｜游戏系统策划作品集
+# 李智超｜个人作品集
 
-这是李智超的游戏系统策划作品集网站，面向游戏研发岗位投递使用。
+**设计思考 · Unity 开发 · 交互实现 · 项目迭代**
 
-网站地址：<https://lxstzhic.github.io/lizchao-portfolio/>
+[浏览作品集](https://lxstzhic.github.io/lizchao-portfolio/) · [简历](public/downloads/resume_lizchao.pdf) · [邮件联系](mailto:lxst_zhi@163.com)
 
-我关注核心循环、规则逻辑、信息反馈和系统迭代，也关注一个设计从文档走到可运行原型时会遇到的具体问题。作品集中既有 Unity 独立项目，也有围绕探索和知识进程展开的系统拆解案，用来说明我如何分析问题、组织规则并验证方案。
+我目前在读硕士，持续进行 Unity 项目实践。我关注如何把想法整理成清晰的规则，再通过空间、交互和反馈把它变成可以体验的作品。这个网站集中展示我的设计思考、实现过程与项目成果，方便从不同岗位视角了解我的能力。
 
-## 作品内容
+## 作品
 
-### 《第七十三夜》
+| 项目 | 内容 | 展示重点 |
+| --- | --- | --- |
+| **《第七十三夜》3D 版** | 个人独立制作的探索解谜游戏，0.4 版本 | 规则与空间、实机画面、设计说明、建模演进、策划案与迭代记录 |
+| 《第七十三夜》2D 版 | Unity 像素解谜探索游戏 | 3 种梦境规则、6 个关卡场景、18 项问题修复、7 个版本迭代 |
+| 《来世今生》 | 探索类科普游戏 | 核心玩法、道具与 14 种结局关联、美术与文案协作、3 个版本迭代 |
+| 《星际拓荒》系统拆解 | 探索与知识进程分析 | 核心循环、信息门控、玩家认知变化与反馈 |
 
-像素解谜探索游戏，使用 Unity 独立开发。项目围绕知识锁、梦境规则和线索记录组织探索流程。
+3D 项目设有独立的大幅展示区：
+- 项目封面：`dream3D_封面.png`。
+- 实机展示：`dream3D_1.png` 至 `dream3D_6.png`，拼图预览。
+- 设计说明：概述、2D 平面路线、3D 空间结构、关卡节奏，完整显示原图。
+- 所有 11 张图片均可点击放大，用左右按钮或方向键切换，Esc 关闭。
+- **四区建模演进**播放本地 MP4；**设计展示**单独配置视频平台链接，二者互不替代。
 
-- 设计核心循环、系统框架和谜题前置条件
-- 实现 3 种梦境规则、日志系统、交互系统和输入检测
-- 完成 6 个关卡场景
-- 测试发现并修复 18 项问题，推进 7 个版本迭代
-- 提供 Windows Demo、视频入口和策划展示文档
+## 内容配置
 
-### 《来世今生》
+主要配置文件是 [src/data/portfolio.js](src/data/portfolio.js)：
 
-探索类科普游戏，使用 Unity 独立开发并与项目成员协作完成。项目把食品添加剂知识融入工厂探索、战斗行动、道具收集和分支结局。
+| 配置 | 用途 |
+| --- | --- |
+| `profile` | 姓名、邮箱、电话、GitHub、个人介绍和能力 |
+| `links` | 原有视频、Demo、文档和简历链接，已保留原值 |
+| `projects` | 原有三个项目的简介、标签、封面和入口 |
+| `dream3d` | 3D 项目内容、图库、视频和资源入口 |
+| `dream3d.designVideoUrl` | 设计展示的视频平台 HTTPS 页面地址，目前为空 |
+| `dream3d.evolutionVideoUrl` | 四区建模演进 MP4，已接入本地文件 |
+| `dream3d.demoUrl` | 3D Windows Demo 公开下载地址，已接入 Release 0.4 |
+| `dream3d.docUrl` | 3D 策划案及迭代记录 Excel |
 
-- 设计核心玩法、游戏流程和道具获取规则
-- 建立道具与 14 种结局分支之间的关联
-- 参与主要功能和游戏内容搭建
-- 与美术、文案协作完成资源整合，推进 3 个版本迭代
+空链接不会生成虚假的可点击入口；页面如实显示对应资源尚未发布。填好链接后，入口自动启用。界面标题与结构在 `src/main.jsx`，样式在 `src/styles.css`，SEO 信息在 `index.html`。
 
-### 《星际拓荒》探索与知识进程系统拆解案
+## 本地预览与构建
 
-围绕探索、知识获取和信息门控，分析游戏核心循环、系统联系、玩家认知变化与反馈机制。拆解案包含核心循环、知识进程、信息门控、玩家行为反馈和可迁移设计方法。
+网站继续使用 React、Vite、JavaScript 和 CSS，沿用已有技术栈。图片、文档与本地视频无需外部图床。
 
-## 能力侧重点
-
-- **系统设计与 UI 交互：** 核心循环、逻辑状态机、条件解锁、多分支关联规则，以及系统 UI 交互流程和信息反馈设计。
-- **程序与引擎：** Unity3D、C# 编程基础、MVC 架构开发，以及使用 Python 进行数据整理和逻辑验证。
-- **文档与协作：** 使用 Word、Excel、PowerPoint 完成策划案、规则表、测试记录和项目汇报；具备英文资料查阅能力，并有美术、程序、运营协作经验。
-
-## 技术栈
-
-- React
-- Vite
-- JavaScript
-- CSS
-- GitHub Pages
-
-页面采用响应式布局，资源链接集中管理，图片使用懒加载，生产构建使用相对路径以适配 GitHub Pages 项目站点。
-
-## 项目结构
-
-```text
-portfolio/
-├─ public/
-│  ├─ assets/              # 项目封面与系统图
-│  ├─ downloads/           # 已公开的 Demo、文档和简历文件
-│  └─ favicon.svg
-├─ src/
-│  ├─ data/portfolio.js    # 视频、Demo、文档、简历等链接配置
-│  ├─ main.jsx             # 页面结构与组件
-│  └─ styles.css           # 页面样式与响应式规则
-├─ .github/workflows/      # GitHub Pages 自动部署工作流
-├─ index.html
-├─ vite.config.js
-└─ package.json
-```
-
-## 本地运行
-
-```bash
-npm install
+```powershell
+cd E:\unity\portfolio
+npm ci
 npm run dev
 ```
 
-打开终端提示的本地地址即可预览页面。
+生产构建与预览：
 
-## 构建检查
-
-```bash
-npm run build
+```powershell
+npm run build -- --emptyOutDir false
 npm run preview
 ```
 
-构建产物输出到 `dist/`。提交前建议先运行 `npm run build`，确认资源路径和页面编译正常。
+`--emptyOutDir false` 保留已有本地构建文件。GitHub Actions 在干净环境构建，仍使用 `npm run build`。
 
-## GitHub Pages 部署
+## 3D Demo 发布与更新
 
-仓库已配置 `.github/workflows/deploy.yml`。向 `main` 分支推送后，GitHub Actions 会自动执行安装依赖、构建和发布。
+0.4 已上传至 [GitHub Release](https://github.com/lxstzhic/lizchao-portfolio/releases/tag/night73-v0.4)，并接入网页。匿名下载验证通过。原始 ZIP 约 155 MB，保留在本地 `demos/`，不进入普通 Git 提交或 Pages 目录。后续更新方式：
 
-首次部署时，在仓库的 **Settings → Pages** 中将发布来源设置为 **GitHub Actions**。部署完成后访问：
+1. 打开 [新建 Release](https://github.com/lxstzhic/lizchao-portfolio/releases/new)。
+2. 创建标签，例如 `night73-v0.4`，填写标题“第七十三夜 3D · 0.4”。
+3. 在附件区域上传 `E:\unity\portfolio\demos\Night73_0.4_Windows.zip`，发布 Release。
+4. 复制已发布附件的下载地址，填入 `dream3d.demoUrl`。在无登录窗口确认可下载。
+5. 提交并推送配置更新。
 
-```text
-https://lxstzhic.github.io/lizchao-portfolio/
+仅在完成以上上传后，对应地址才有效，不能只凭命名拼接链接。3D Demo 的发布状态不影响原有 Windows/Android Demo 的入口。
+
+## GitHub Pages 更新
+
+仓库已配置 [自动部署工作流](.github/workflows/deploy.yml)。Pages 来源选 GitHub Actions；推送到 `main` 后自动构建部署。`base: './'` 适配项目路径。
+
+```powershell
+git add .gitignore README.md index.html src public/assets/dream73_3d public/media/dream73_3d_evolution.mp4 public/downloads/dream73_3d_design.xlsx public/downloads/Afterlife_Demo_Android.zip
+git commit -m "refresh personal portfolio and add Night73 3D"
+git -c http.proxy=http://127.0.0.1:7890 push origin main
 ```
 
-## 资源配置
+最后一条命令沿用本机已配置的 7890 代理端口；不使用代理时执行 `git push origin main`。
 
-所有项目资源入口集中在 [`src/data/portfolio.js`](src/data/portfolio.js)，包括：
+## 素材目录
 
-- 视频链接
-- Windows 或 Android Demo 下载链接
-- 策划文档和系统拆解案
-- 简历下载链接
-- 项目封面路径和项目标签
+- `public/assets/dream73_3d/`：用于网站的 3D 图片，保留原图质量。
+- `public/media/`：建模演进视频，按用户操作播放，不自动播放。
+- `public/downloads/`：允许发布的文档、简历及原有 Demo。
+- `images/`、`documents/`、`demos/`：本地原始素材，保留但忽略后续 Git 跟踪。
+- `output/playwright/`：本地浏览器检查截图，不发布。
 
-目前已放入仓库的资源包括第七十三夜 Windows Demo、项目文档、简历和项目封面。未公开的资源不应直接提交到仓库；Unity 未压缩构建目录也不应上传。
-
-如果要替换链接，只需修改 `src/data/portfolio.js`，然后执行：
-
-```bash
-npm run build
-git add .
-git commit -m "update portfolio resources"
-git push origin main
-```
-
-视频、Demo 和外部文档链接应使用无需登录即可访问的 HTTPS 地址。
+原有素材及 Unity 工程没有修改。新增公开文件需检查 `.gitignore` 白名单；只把文件放进本地 `public/downloads/` 而未加入提交，会导致线上 404。

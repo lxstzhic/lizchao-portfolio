@@ -8,3 +8,13 @@ public/downloads/*
 !public/downloads/《星际拓荒》探索与知识进程系统拆解.docx
 
 !public/downloads/resume_lizchao.pdf
+!public/downloads/Afterlife_Demo_Android.zip
+!public/downloads/dream73_3d_design.xlsx
+# Original source materials remain local; only curated public assets are published.
+/demos/
+/images/
+/documents/
+/.npm-cache/
+/output/
+/.playwright-cli/
+/.playwright/
