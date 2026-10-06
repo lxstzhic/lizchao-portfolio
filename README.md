@@ -2,7 +2,7 @@
 
 **设计思考 · Unity 开发 · 交互实现 · 项目迭代**
 
-[浏览作品集](https://lxstzhic.github.io/lizchao-portfolio/) · [简历](public/downloads/resume_lizchao_20261005_v2.pdf) · [邮件联系](mailto:lxst_zhi@163.com)
+[浏览作品集](https://lxstzhic.github.io/lizchao-portfolio/) · [简历](public/downloads/resume_lizchao_20261006.pdf) · [邮件联系](mailto:lxst_zhi@163.com)
 
 我目前为江南大学 2027 届硕士在读，持续进行 Unity 项目实践。我关注如何把想法整理成清晰的规则，再通过空间、交互和反馈把它变成可以体验的作品。这个网站集中展示我的设计思考、实现过程与项目成果，方便从不同岗位视角了解我的能力。
 
