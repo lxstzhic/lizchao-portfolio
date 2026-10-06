@@ -38,7 +38,7 @@
 | `links` | 原有视频、Demo、文档和简历链接，已保留原值 |
 | `projects` | 原有三个项目的简介、标签、封面和入口 |
 | `dream3d` | 3D 项目内容、图库、视频和资源入口 |
-| `dream3d.designVideoUrl` | 设计展示的视频平台 HTTPS 页面地址，目前为空 |
+| `dream3d.designVideoUrl` | 设计展示的视频平台 HTTPS 页面地址，已接入 Bilibili 视频 |
 | `dream3d.evolutionVideoUrl` | 四区建模演进 MP4，已接入本地文件 |
 | `dream3d.demoUrl` | 3D Windows Demo 公开下载地址，已接入 Release 0.4 |
 | `dream3d.docUrl` | 3D 策划案及迭代记录 Excel |

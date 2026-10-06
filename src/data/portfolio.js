@@ -30,7 +30,7 @@ export const dream3d = {
   date: '2026.09 — 2026.10', role: '个人独立制作',
   summary: '针对解谜后反复原路返回的问题，将探索流程重构为连续主路、跨层支路与返程捷径。通过高处回望、检修后启用滑索及跨区交通，让学到的规则参与下一段探索。',
   description: '涵盖水务、回声、天文台与终章 4 个区域，围绕倒影、回声、对齐 3 种规则安排单规则教学、双规则主路与三规则支线，接入 2 种结局。当前为 0.4 发布版。',
-  designVideoUrl: '', demoUrl: 'https://github.com/lxstzhic/lizchao-portfolio/releases/download/night73-v0.4/Night73_0.4_Windows.zip', docUrl: './downloads/dream73_3d_design.xlsx',
+  designVideoUrl: 'https://www.bilibili.com/video/BV1r8HZ6WE7k/', demoUrl: 'https://github.com/lxstzhic/lizchao-portfolio/releases/download/night73-v0.4/Night73_0.4_Windows.zip', docUrl: './downloads/dream73_3d_design.xlsx',
   evolutionVideoUrl: './media/dream73_3d_evolution.mp4',
   cover: './assets/dream73_3d/cover.png',
   metrics: ['4 个区域 / 3 种规则', '2 种结局', '0.4 发布版'],
