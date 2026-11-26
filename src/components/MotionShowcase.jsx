@@ -47,7 +47,7 @@ export function ImageRail({onOpen, modalOpen}) {
     node.scrollBy({left:direction*distance,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
   };
   return <section className="image-gallery" aria-label="3D 项目图片">
-    <div className="gallery-head"><div><span className="eyebrow">EXPLORE THE DETAILS</span><h3>让画面，自己讲述。</h3></div><div className="rail-controls">
+    <div className="gallery-head"><div><span className="eyebrow">EXPLORE THE DETAILS</span><h3>实机画面与设计文档</h3></div><div className="rail-controls">
       <button className="icon-button" aria-label={paused?'播放图片带':'暂停图片带'} aria-pressed={paused} onClick={()=>setPaused(v=>!v)}>{paused?<Play size={17}/>:<Pause size={17}/>}</button>
       <button className="icon-button" aria-label="图片带向左" disabled={items.length<2} onClick={()=>step(-1)}><ArrowLeft size={18}/></button>
       <button className="icon-button" aria-label="图片带向右" disabled={items.length<2} onClick={()=>step(1)}><ArrowRight size={18}/></button>
